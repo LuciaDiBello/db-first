@@ -1,0 +1,50 @@
+# DB Auto
+
+Tabella auto
+
+Nome colonna			Tipo			Attributi			Indici	
+
+id				int			AUTO_INCREMENT			primary key
+
+targa				varchar(10)		UNIQUE, NOT NULL
+
+numero di telaio		varchar(19)		UNIQUE, NOT NULL
+
+tipo di auto 			varchar(15)		NOT NULL
+
+anno di immatricolazione	year			NOT NULL
+
+marca 				varchar(50)		NOT NULL
+
+tipo di motore			varchar(15)		NOT NULL
+
+modello				varchar(50)		NOT NULL
+
+colore				varchar(15)		NOT NULL
+
+cilindrata			int			NOT NULL
+
+cavalli				int			NOT NULL
+
+numero di porte			int			NOT NULL
+	
+numero di posti a sedere	int			NULL
+
+sensori di parcheggio		tinyint			NULL
+
+cruise control adattivo		tinyint			NULL
+
+numero di incidenti		int			NOT NULL, DEFAULT 0
+
+Km percorsi			int			NOT NULL
+
+note 				text 			NULL
+
+
+
+
+
+
+
+
+
